@@ -214,7 +214,7 @@ def diet_app():
         import pandas as pd
         from Generate_Recommendations import Generator
         from random import uniform as rnd
-        from ImageFinder.ImageFinder import get_images_links as find_image
+        from ImageFinder import get_images_links as find_image
         from streamlit_echarts import st_echarts
         import openai
         import os
