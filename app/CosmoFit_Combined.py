@@ -245,7 +245,7 @@ def diet_app():
         import pandas as pd
     
         # Reload after reset
-        file_path = "/Users/ozgedoner/Desktop/CosmoFit/csv/extended_merged_obesity_coordinates.csv"
+        file_path = "/csv/extended_merged_obesity_coordinates.csv"
         obesity_df = pd.read_csv(file_path)
     
     
@@ -802,7 +802,7 @@ def diet_app():
     
             @st.cache_data
             def load_data():
-                return pd.read_csv("/Users/ozgedoner/Desktop/CosmoFit/csv/extended_merged_obesity_coordinates.csv")
+                return pd.read_csv("/csv/extended_merged_obesity_coordinates.csv")
     
             obesity_df = load_data()
             country_options = sorted(obesity_df["Country"].unique().tolist())
