@@ -5,11 +5,9 @@ streamlit==1.16.0
 streamlit-echarts==0.4.0 
 requests==2.28.1
 altair==4.0
-deep-translator==1.11.4
 plotly
 fastapi
 uvicorn
 pymongo
 python-dotenv
 matplotlib
-
