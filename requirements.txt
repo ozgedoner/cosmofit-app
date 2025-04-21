@@ -11,3 +11,5 @@ fastapi
 uvicorn
 pymongo
 python-dotenv
+matplotlib
+
