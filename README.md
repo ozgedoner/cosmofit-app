@@ -63,7 +63,7 @@ CosmoFit's architecture includes:
 
 ```bash
 # Clone this repo
-git clone https://github.com/YOUR_USERNAME/CosmoFit
+git clone https://github.com/ozgedoner/CosmoFit
 cd CosmoFit
 
 # Install requirements
