@@ -1,6 +1,6 @@
 
 <h1 align="center">CosmoFit - AI Powered Diet & Recipe Recommendation System</h1>
-<div align="center"><img src="Assets/banner.jpg" width="60%" />
+<div align="center"><img src="cosmofit-app/Assets/banner.jpg" width="60%" />
   <h4>A smart diet assistant offering personalized food suggestions using ML, FastAPI, Streamlit, and ChatGPT.</h4>
 </div>
 
@@ -34,7 +34,7 @@ CosmoFit's architecture includes:
 - **Recommendation Engine**: Unsupervised clustering (K-Means), classification (Random Forest), and cosine similarity
 - **Deployment**: Dockerized setup with multi-service support (API, UI)
 
-<p align="center"><img src="Assets/architecture.png" width="70%"/></p>
+<p align="center"><img src="cosmofit-app/Assets/architecture.png" width="70%"/></p>
 
 ---
 
