@@ -1191,8 +1191,6 @@ def diet_app():
     if __name__ == "__main__":
         app()
 
-
-
 # --- Streamlit Sidebar Navigation ---
 PAGES = {
     "Calculation Tools": tools_app,
