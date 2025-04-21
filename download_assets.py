@@ -30,3 +30,7 @@ def download_all_assets():
 if __name__ == "__main__":
     download_all_assets()
 
+if not os.path.exists("csv/extended_merged_obesity_coordinates.csv"):
+    print("❌ Dosya inemedi veya yanlış klasöre kaydedildi.")
+else:
+    print("✅ CSV dosyası başarıyla indirildi.")
