@@ -391,13 +391,13 @@ def diet_app():
         image_path = "Images"  # Example: if images are stored under an "assets" folder in your project
     
         # Encode plate image
-        tabak_file_path = os.path.join(image_path, "/Users/ozgedoner/Desktop/CosmoFit/Images/tabak.png")
+        tabak_file_path = os.path.join(image_path, "/Images/tabak.png")
         with open(tabak_file_path, "rb") as tabak_file:
             encoded_tabak = base64.b64encode(tabak_file.read()).decode()
     
         # Encode banner image
         banner_encoded = None
-        banner_file_path = os.path.join(image_path, "/Users/ozgedoner/Desktop/CosmoFit/Images/banner.jpg")
+        banner_file_path = os.path.join(image_path, "/Images/banner.jpg")
         try:
             with open(banner_file_path, "rb") as banner_file:
                 banner_encoded = base64.b64encode(banner_file.read()).decode()
@@ -616,7 +616,7 @@ def diet_app():
                     return int(zone_percentages[-1] * img_width)
     
                 # Load the image and draw the red arrow
-                img_path = "/Users/ozgedoner/Desktop/CosmoFit/Images/bmi_chart.png"  # Make sure this file is present in your app folder
+                img_path = "/Images/bmi_chart.png"  # Make sure this file is present in your app folder
                 image = Image.open(img_path).convert("RGBA")
                 img_width, img_height = image.size
                 arrow_x = get_arrow_x(bmi, img_width)
@@ -1137,37 +1137,37 @@ def diet_app():
                 "name": "Selin Aksoy",
                 "title": "Student",
                 "comment": "With CosmoFit recipes, I'm eating healthy and learning how to cook. I lost 1.5 kg in 2 weeks!",
-                "image": "/Users/ozgedoner/Desktop/CosmoFit/user_images/selin.png"
+                "image": "/user_images/selin.png"
             },
             {
                 "name": "Murat Aydın",
                 "title": "HR Specialist",
                 "comment": "The recipes are both practical and tasty. I maintain my shape with high-protein meals.",
-                "image": "/Users/ozgedoner/Desktop/CosmoFit/user_images/murat.jpg"
+                "image": "/user_images/murat.jpg"
             },
             {
                 "name": "Ece Yıldız",
                 "title": "Graphic Designer",
                 "comment": "I feel more energetic. CosmoFit has become a guide to my healthy lifestyle.",
-                "image": "/Users/ozgedoner/Desktop/CosmoFit/user_images/ece.png"
+                "image": "/user_images/ece.png"
             },
             {
                 "name": "Kaan Demir",
                 "title": "Teacher",
                 "comment": "I used to struggle with dieting, but CosmoFit recipes kept the flavor while I lost weight. I'm continuing!",
-                "image": "/Users/ozgedoner/Desktop/CosmoFit/user_images/kaan.jpg"
+                "image": "/user_images/kaan.jpg"
             },
             {
                 "name": "Zeynep Gül",
                 "title": "Engineer",
                 "comment": "It helped a lot with meal planning. My habits completely changed thanks to CosmoFit.",
-                "image": "/Users/ozgedoner/Desktop/CosmoFit/user_images/zeynep.jpg"
+                "image": "/user_images/zeynep.jpg"
             },
             {
                 "name": "Emre Can",
                 "title": "Software Developer",
                 "comment": "Thanks to easy-to-make healthy recipes, I lost 3 kg even at the office. Highly recommended!",
-                "image": "/Users/ozgedoner/Desktop/CosmoFit/user_images/emre.jpg"
+                "image": "/user_images/emre.jpg"
             }
         ]
     
