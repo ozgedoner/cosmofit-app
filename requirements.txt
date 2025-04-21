@@ -16,3 +16,4 @@ folium
 streamlit-folium
 openai
 Pillow
+gdown
