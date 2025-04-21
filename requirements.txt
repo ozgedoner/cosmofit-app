@@ -14,3 +14,4 @@ python-dotenv
 fastapi
 uvicorn
 pymongo
+streamlit_echarts
