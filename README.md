@@ -78,7 +78,7 @@ streamlit run app/main.py
 ```bash
 docker-compose up -d --build
 ```
-Then open `http://localhost:8501` in your browser.
+
 
 ---
 
