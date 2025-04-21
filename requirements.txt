@@ -11,3 +11,4 @@ uvicorn
 pymongo
 python-dotenv
 matplotlib
+openai
