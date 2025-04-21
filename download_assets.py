@@ -1,3 +1,4 @@
+# download_assets.py
 import os
 import gdown
 
@@ -25,3 +26,6 @@ def download_all_assets():
     gdown.download("https://drive.google.com/uc?id=1HyKEx3s9mvMcUpZxUz_X2j7ASZ3YaKv6", "user_images/kaan.jpg", quiet=False)
     gdown.download("https://drive.google.com/uc?id=1Wa6LyM17UsFml0WDFyXgk2Ul8NwP70Ut", "user_images/zeynep.jpg", quiet=False)
     gdown.download("https://drive.google.com/uc?id=1q2BVa9UtG9-UMbLmcJxDkuN5blUIlFJ9", "user_images/emre.jpg", quiet=False)
+
+if __name__ == "__main__":
+    download_all_assets()
